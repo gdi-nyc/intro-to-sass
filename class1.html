@@ -314,27 +314,6 @@ header nav a { color: white; }</code></pre>
           </div>
         </section>
 
-        <!-- Advanced Nesting -->
-        <section class="present">
-          <h3>Advanced Nesting</h3>
-          <div>
-            <p class="left-align">Prefixing:</p>
-<pre><code contenteditable class ="sass css">p {
-  body.no-touch & {
-    display: none; // hide the message if not on a touch device
-  }
-}
-</code></pre>
-            <p class="left-align">BEM syntax:</p>
-<pre><code contenteditable class ="css sass">.header {
-  &__title{
-    font-size: 20px;
-    color: black;
-  }
-}</code></pre>
-          </div>
-        </section>
-
         <!-- Comparison-->
         <section>
           <h3>Parent Selectors</h3>
@@ -352,6 +331,27 @@ header nav a { color: white; }</code></pre>
 <pre><code contenteditable class ="css sass">nav { background: red; }
 nav a { color: white; }
 nav a:hover { text-decoration: underline; }</code></pre>
+          </div>
+        </section>
+
+        <!-- Advanced Nesting -->
+        <section class="present">
+          <h3>Advanced Nesting</h3>
+          <div>
+            <p class="left-align">Prefixing:</p>
+<pre><code contenteditable class ="sass css">p {
+  body.no-touch & {
+  display: none; // hide the message if not on a touch device
+  }
+  }
+</code></pre>
+            <p class="left-align">BEM syntax:</p>
+<pre><code contenteditable class ="css sass">.header {
+  &__title{
+  font-size: 20px;
+  color: black;
+  }
+  }</code></pre>
           </div>
         </section>
 
